@@ -53,7 +53,7 @@ namespace Chat
         {
             TextBox textBoxA = new TextBox();
             textBoxA.Foreground = Brushes.Blue;
-            textBoxA.FontSize = 17;
+            textBoxA.FontSize = 36;
             textBoxA.Text += "A: " + TextA.Text + "\n";
             textBoxA.TextAlignment = TextAlignment.Left;
             StackChat.Children.Add(textBoxA);
@@ -66,7 +66,7 @@ namespace Chat
         {
             TextBox textBoxB = new TextBox();
             textBoxB.Foreground = Brushes.Red;
-            textBoxB.FontSize = 17;
+            textBoxB.FontSize = 36;
 
             textBoxB.Text += "B: " + ans.GetAnswer() + "\n";
             textBoxB.TextAlignment = TextAlignment.Right;
